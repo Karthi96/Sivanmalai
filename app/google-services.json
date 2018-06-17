@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "447947873354",
+    "firebase_url": "https://murugapotri-2f875.firebaseio.com",
+    "project_id": "murugapotri-2f875",
+    "storage_bucket": "murugapotri-2f875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447947873354:android:60b58d43d2ebd714",
+        "android_client_info": {
+          "package_name": "com.liteart.apps.lordiyapan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447947873354-ealtd9o01s2flpp6mrhv8poihmtamdle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteart.apps.lordiyapan",
+            "certificate_hash": "ac6f7de1a081b8b78bb00ae87896147d00cbea44"
+          }
+        },
+        {
+          "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8oqQwjWIMbQEFNgx1xYFK2Y5jVtguH1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447947873354:android:3f54b09ff30940ab",
+        "android_client_info": {
+          "package_name": "com.liteart.apps.lordmurugan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447947873354-k6n66ng10m7dun7mdtvin36vtggdildp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteart.apps.lordmurugan",
+            "certificate_hash": "515d1ca63f9668f1ff9ebaca602fbe0c45323d17"
+          }
+        },
+        {
+          "client_id": "447947873354-5l2ius9nr53dqb99s32jvbds7g63i2ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteart.apps.lordmurugan",
+            "certificate_hash": "c86106287443d41c222535a9451891bef5e6fac4"
+          }
+        },
+        {
+          "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8oqQwjWIMbQEFNgx1xYFK2Y5jVtguH1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447947873354:android:9d991eb70a823dec",
+        "android_client_info": {
+          "package_name": "com.liteart.apps.sivanmalai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447947873354-4a4bc8iqgni3m9062anuhuop6ibivr77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteart.apps.sivanmalai",
+            "certificate_hash": "486b9056c564bf88dde8d3f6499b624b1e16dd5c"
+          }
+        },
+        {
+          "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8oqQwjWIMbQEFNgx1xYFK2Y5jVtguH1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447947873354-bieh3nbl674olnfp6ef0f356uar5qaep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

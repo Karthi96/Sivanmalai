@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arupadaiveedugal_padding_10dp">10dp</dimen>
+    <dimen name="arupadaiveedugal_layout_margin_10dp">10dp</dimen>
+    <dimen name="content_ll_margin_left">15dp</dimen>
+    <dimen name="content_ll_margin_minus_left">-15dp</dimen>
+    <dimen name="content_ll_margin_right">10dp</dimen>
+    <dimen name="content_ll_margin_minus_right">-10dp</dimen>
+    <dimen name="bullet_2dp">10dp</dimen>
+    <dimen name="heading_text_left">3dp</dimen>
+    <dimen name="content_text_left">18dp</dimen>
+    <dimen name="content_text_top">5dp</dimen>
+    <dimen name="title_layout_width">300dp</dimen>
+    <dimen name="text_above">5dp</dimen>
+</resources>

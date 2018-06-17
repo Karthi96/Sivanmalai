@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_songs"
+            android:title="@string/songs" />
+        <item
+            android:id="@+id/nav_fm"
+            android:title="@string/fm" />
+
+        <item
+            android:id="@+id/nav_kanthasasti"
+            android:title="@string/kantha_puranam" />
+    </group>
+
+    <item android:title="Other Options" >
+        <menu>
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+</menu>

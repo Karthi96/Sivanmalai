@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liteart.apps.sivanmalai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.liteart.apps.sivanmalai.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.liteart.apps.sivanmalai.ArupadaiVeedugalAcivity"
+            android:parentActivityName="com.liteart.apps.sivanmalai.MainActivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.ArupadaiVeedugalContentActivity"
+            android:parentActivityName="com.liteart.apps.sivanmalai.ArupadaiVeedugalAcivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.EssayActivity"
+            android:parentActivityName="com.liteart.apps.sivanmalai.MainActivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.EssayWebviewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.liteart.apps.sivanmalai.WebviewBrowser" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.TabViewMainActivity"
+            android:label="@string/videos"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.TabViewStoriesEssays"
+            android:label="@string/stories"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.PrivacyPolicyActivity"
+            android:label="@string/title_activity_privacy_policy"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+
+        <activity
+            android:name="com.liteart.apps.sivanmalai.BakthiPaadalgal"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.liteart.apps.sivanmalai.MainActivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.GalleryActivity"
+            android:parentActivityName="com.liteart.apps.sivanmalai.MainActivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.SpacePhotoActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.liteart.apps.sivanmalai.GalleryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.liteart.apps.sivanmalai.RadioFMActivity" />
+        <activity
+            android:name="com.liteart.apps.sivanmalai.NewsDesActivity"
+            android:parentActivityName="com.liteart.apps.sivanmalai.NewsListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.liteart.apps.sivanmalai.NewsListActivity" />
+
+        <activity android:name="com.liteart.apps.sivanmalai.Utharavu_porul"
+            android:parentActivityName="com.liteart.apps.sivanmalai.MainActivity"
+            android:label="ஆண்டவன் உத்தரவு "/>
+        <service
+            android:name=".firebase.LiteArtFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

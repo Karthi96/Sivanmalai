@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    >
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview_essay_html"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_5">
+    </com.google.android.gms.ads.AdView>
+    <RelativeLayout
+        android:background="@drawable/yellow_button"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:drawableLeft="@drawable/left_arrow"
+            android:background="@drawable/black_button"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/previous"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="முன் செல்"/>
+        <Button
+            android:id="@+id/about_bharathidasan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_home"/>
+        <Button
+            android:drawableRight="@drawable/right_arrow"
+            android:background="@drawable/black_button"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/next"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="அடுத்து"/>
+
+    </RelativeLayout>
+
+    <WebView
+        android:layout_below="@id/adview_essay_html"
+        android:id="@+id/webView1"
+        android:layout_above="@id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

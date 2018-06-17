@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+  <item android:id="@+id/menu_petti"
+      android:icon="@drawable/petti"
+      android:title="Petti"
+      app:showAsAction="always"/>
+
+  <item android:id="@+id/menu_news"
+        android:icon="@drawable/newsicon"
+        android:title="News"
+        app:showAsAction="always"/>
+    <!-- <item android:id="@+id/menu_radio"
+       android:icon="@drawable/ic_radio"
+       android:title="FM"
+       app:showAsAction="always"/>-->
+   <!-- <item android:id="@+id/menu_calendar"
+        android:icon="@drawable/calendar"
+        android:title="Murugan Calendar"
+        app:showAsAction="always"
+        />-->
+
+  <item
+      android:id="@+id/kanthasasti"
+      android:title="@string/kantha_puranam" />
+
+    <item  android:id="@+id/privacy"
+        android:title="Privacy Policy"/>
+
+    <item  android:id="@+id/rateus"
+        android:title="Rate Us"/>
+    <item  android:id="@+id/share"
+        android:title="Share"/>
+</menu>
